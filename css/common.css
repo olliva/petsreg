@@ -820,7 +820,7 @@ body.sub .main-content {
     font-style: italic;
     font-size: 13px;
 }
-.registrationFields .inputButton{
+.redButton{
     height: 34px;
     width: 190px;
     background: rgb(255,59,65); /* Old browsers */
@@ -837,7 +837,7 @@ body.sub .main-content {
     font-size: 14px;
     text-shadow: 0 -1px 1px #b20000;
 }
-.registrationFields .inputButton:hover{
+.redButton:hover{
     cursor: pointer;
     background: rgb(255,48,51); /* Old browsers */
 background: -moz-linear-gradient(top,  rgba(255,48,51,1) 0%, rgba(206,0,3,1) 100%); /* FF3.6+ */
@@ -849,7 +849,7 @@ background: linear-gradient(to bottom,  rgba(255,48,51,1) 0%,rgba(206,0,3,1) 100
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3033', endColorstr='#ce0003',GradientType=0 ); /* IE6-9 */
 
 }
-.registrationFields .inputButton:active{
+.redButton:active{
     background: rgb(206,0,3); /* Old browsers */
 background: -moz-linear-gradient(top,  rgba(206,0,3,1) 0%, rgba(255,48,51,1) 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(206,0,3,1)), color-stop(100%,rgba(255,48,51,1))); /* Chrome,Safari4+ */
