@@ -94,6 +94,9 @@ button::-moz-focus-inner {
     padding: 0;
     border: 0
 }
+button:hover{
+    cursor: pointer;
+}
 
 /*ClearFix*/
 .clearFix:after {
@@ -480,9 +483,12 @@ body.sub .main-content {
     color: #575e5f;
     font-size: 18px;
     font-weight: bold;
-    padding: 6px 0 11px 0;
+    padding: 22px 0 11px 0;
     line-height: 1;
     border-bottom: 1px solid #d7d6d6;
+}
+.payPage .title-sidebar{
+    padding-top: 6px;
 }
 
 .left-links {
@@ -2043,6 +2049,16 @@ body.sub .main-content {
     padding: 0 10px;
     font-size: 13px;
 }
+input::-webkit-input-placeholder {
+    font-style: italic;
+    color: #bbbbbb;
+    font-size: 13px;
+}
+input:-moz-placeholder {
+    font-style: italic;
+    color: #bbbbbb;
+    font-size: 13px;
+}
 .ie8 .visa-field-cvc input,
 .ie8 .visa-field-number input{
     padding: 10px;
@@ -3026,6 +3042,7 @@ body.sub .main-content {
     border: 1px solid transparent;
     text-shadow: 0 -1px 1px #b20000;
     color: white;
+    border-radius: 5px;
 }
 .redButton:hover{
     cursor: pointer;
@@ -3062,7 +3079,7 @@ body.sub .main-content {
     background: linear-gradient(to bottom,  rgba(252,252,252,1) 0%,rgba(239,239,239,1) 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#efefef',GradientType=0 ); /* IE6-9 */
     color: #545454;
-    text-shadow: 0 -1px 1px #bbbbbb;
+    text-shadow: 0 -1px 1px white;
 }
 .greyButton:hover{
     cursor: pointer;
@@ -3095,7 +3112,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbdbdb', end
     position: absolute;
     top: 110px;
     left: 135px;
+
 }
+
 .selectStyle{
     display: inline-block;
     border-radius: 5px;
@@ -3149,7 +3168,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbdbdb', end
 }
 .selectContainer .dropdown-menu li{
     text-align: right;
-    padding-right: 17px;
     vertical-align: middle;
 }
 .selectContainer .dropdown-menu li:hover{
@@ -3161,6 +3179,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbdbdb', end
     padding: 5px 0;
     display: block;
     font-style: italic;
+    padding-right: 17px;
 }
 .selectContainer .dropdown-menu li>a:hover{
     color: black;
